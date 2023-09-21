@@ -1,0 +1,19 @@
+.empty-state {
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.empty-state > h2 {
+    line-height: 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: rgb(3 7 18); /* gray-900 */
+}
+
+.empty-state > p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-top: 0.25rem;
+    color: rgb(107 114 128);
+}

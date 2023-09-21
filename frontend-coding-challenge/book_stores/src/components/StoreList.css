@@ -1,0 +1,18 @@
+.store-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+
+@media (min-width: 1024px) {
+    .store-list {
+        max-width: 64rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

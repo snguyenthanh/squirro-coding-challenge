@@ -1,0 +1,63 @@
+.book-table {
+    line-height: 1.5rem;
+    font-size: 0.875rem;
+    text-align: left;
+    border-style: none;
+    width: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    text-indent: 0;
+    border-collapse: collapse;
+}
+
+.book-table > colgroup > col:first-child {
+    width: 100%;
+}
+
+.book-table > thead {
+    color: rgb(3 7 18); /* gray-900 */
+    border-bottom: 1px solid rgb(243 244 246); /* gray-300 */
+}
+
+.book-table > thead > tr {
+    font-weight: 600;
+}
+
+.book-table > thead > tr > th:first-child {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0px;
+    padding-left: 0px;
+}
+
+.book-table > thead > tr > th:not(:first-child) {
+    text-align: right;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-right: 0px;
+    padding-left: 2rem;
+}
+
+.book-table > tbody > tr {
+    border-bottom: 1px solid rgb(243 244 246); /* gray-100 */
+}
+
+.book-table > tbody > tr > td {
+    vertical-align: top;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.book-table > tbody > tr > td:first-child {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 0rem;
+}
+
+.book-table > tbody > tr > td:not(:first-child) {
+    text-align: right;
+    padding-right: 0px;
+    padding-left: 2rem;
+    white-space: nowrap;
+}
+

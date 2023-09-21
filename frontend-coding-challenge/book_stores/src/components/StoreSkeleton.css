@@ -1,0 +1,40 @@
+.store-skeleton-container {
+    display: flex;
+    width: 100%;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.store-skeleton-image {
+    background-color: rgb(51 65 85);
+    border-radius: 9999px;
+    width: 6rem;
+    height: 6rem;
+}
+
+.store-skeleton-body {
+    flex: 1 1 0%;
+    margin-left: 1rem; /* 16px */
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.store-skeleton-line {
+    border-radius: 0.25rem;
+    height: 0.5rem;
+    background-color: rgb(51 65 85);
+    margin-top: 0.5rem;
+}
+
+.store-skeleton-line-with-gap {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.store-skeleton-line-with-gap > *:first-child {
+    grid-column: span 2 / span 2;
+}
+
+.store-skeleton-line-with-gap > *:not(:first-child) {
+    grid-column: span 1 / span 1;
+}
